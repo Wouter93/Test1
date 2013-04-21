@@ -23,7 +23,7 @@ public class Promoter
       Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "pr " + username +" member");
 
       Player newbie = Bukkit.getServer().getPlayer(username);
-      newbie.sendMessage(ChatColor.RED + "[Vote] " + ChatColor.WHITE + "You been promoted to " + ChatColor.GREEN + "Member");
+      newbie.sendMessage(ChatColor.RED + "[Vote] " + ChatColor.WHITE + "You have been promoted to " + ChatColor.GREEN + "Member");
     }
   }
 }
