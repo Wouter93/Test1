@@ -18,7 +18,7 @@ public class Promoter
     boolean haspermission = ApiLayer.hasPermission("world", CalculableType.USER, username, "essentials.afk");
 
     if (!haspermission) {
-      //ApiLayer.setGroup("world", CalculableType.USER, username, "Member");
+      //ApiLayer.setGroup("world", CalculableType.USER, username, "Member");//
       
       Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "pr " + username +" member");
 
